@@ -1,0 +1,45 @@
+.rounded-circle{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.textoP {
+    border: 1px solid black;
+    width: 300px;
+    text-align: left;
+    margin-left: 58px;
+    background-color: white;
+    border: none;
+    height: 30px;
+    margin-top: 5px;
+    border-left: 4px solid #e9782f;
+    padding-left: 6px;
+}
+
+.botonDelete {
+    float: right;
+    border: none;
+    background-color: white;
+
+}
+
+.botonMas{
+    position: relative;
+    left: -20px;
+    border: none;
+    background-color: #e9782f;
+    color: white;
+}
+
+.añadeTarea{
+    /* padding-bottom: 20px; */
+    width: 300px;
+}
+
+.añadeTarea:focus{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}

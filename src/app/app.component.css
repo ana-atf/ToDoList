@@ -1,0 +1,19 @@
+.propiedades_container{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+    background-color:#F4f4f4;
+    width: 500px;
+    height: 500px;
+}
+
+h1{
+    text-align: center;
+    color: #e9782f;
+}
+
+.propiedadesDivDatos{
+    text-align: center;
+    
+
+}

@@ -1,0 +1,11 @@
+<input class="añadeTarea" type="text">
+<button (click)="nuevaTarea()" class="rounded-circle botonMas">+</button>
+<div *ngFor="let tarea of tareas; let i = index">
+
+    <p class="textoP">
+        {{tareas[i]}}
+
+
+        <button (click)="deleteTask(i, tarea)" class="botonDelete"><i class="fas fa-trash-alt" style="color:#88888E"></i></button>
+    </p>
+</div>
